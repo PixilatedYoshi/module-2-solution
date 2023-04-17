@@ -2,20 +2,10 @@
 	font-family: helvetica;
 }
 
-#chicken{
+#ramen{
 	position: absolute;
-	background-color: yellow;
-	border-block: black solid 1px;
-	right:0px;
-	top: 0px;
-	font-size: 1.25em;
-	padding: 10px;
-}
-
-#beef{
-	position: absolute;
-	background-color: red;
-	border-block: black solid 1px;
+	background-color: #B7ECE2;
+	border-block: black solid 2px;
 	right:0px;
 	top: 0px;
 	font-size: 1.25em;
@@ -24,7 +14,7 @@
 
 #sushi{
 	position: absolute;
-	background-color: seagreen;
+	background-color: #CE7776;
 	border-block: black solid 1px;
 	right:0px;
 	top: 0px;
@@ -32,46 +22,133 @@
 	padding: 10px;
 }
 
-.container{
-			margin: 10px;
-	width: 30%;
-	height: 200px;
+#tempura{
+	position: absolute;
+	background-color: #6C867C;
+	border-block: black solid 1px;
+	right:0px;
+	top: 0px;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+.ramen{
+	margin: 2%;
+	padding:2%;
+	width: 95%;
+	height: 20%;
+	background-color: lightgrey;
+	border: solid black 1px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.sushi{
+	margin: 2%;
+	padding:2%;
+	width: 95%;
 	background-color: lightgrey;
 	border: solid black 1px;
 	float: left;
 	position: relative;
 	box-sizing: border-box;
 }
-	
+
+.tempura{
+	margin: 2%;
+	padding:2%;
+	width: 95%;
+	height: 10%;
+	background-color: lightgrey;
+	border: solid black 1px;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+}
 
 p {
 	margin: 40px;
-	font-size: 1em;
+	font-size: 70%;
 	text-align: center;
 	align-content: center;
-	padding: 40px;
 }
 
 h1{
 	text-align: center;
 	font-size: 2em;
+	margin: 2%;
+	padding: 2%;
 }
 
-
-@media all and (min-width: 922px) {
-	.container{
-		width: 30%;
-	}
+@media all and (min-width: 992px) {
+	.ramen{
+		float: left;
+	margin: 1.5%;
+	padding:1%;
+	width: 30%;
+	height: 10%;
+	background-color: lightgrey;
+	border: solid black 1px;
+	position: relative;
+	box-sizing: border-box;
 }
 
-@media (min-width: 768px) and (max-width: 921px) {
-	.container{
-		width: 47%;
+.sushi{
+	margin: 1.5%;
+	padding:1%;
+	width: 30%;
+	height: 10%;
+	background-color: lightgrey;
+	border: solid black 1px;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.tempura{
+	margin: 1.5%;
+	padding:1%;
+	width: 30%;
+	height: 10%;
+	background-color: lightgrey;
+	border: solid black 1px;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.ramen{
+		margin: 2%;
+	padding:2%;
+	width: 46%;
+	float: left;
+	background-color: lightgrey;
+	border: solid black 1px;
+	position: relative;
+	box-sizing: border-box;
 	}
+	.sushi{
+		margin: 2%;
+	padding:2%;
+	width: 46%;
+	float: left;
+	background-color: lightgrey;
+	border: solid black 1px;
+	position: relative;
+	box-sizing: border-box;
+	}
+	.tempura{
+		margin: 2%;
+	padding:2%;
+	width: 96%;
+	background-color: lightgrey;
+	border: solid black 1px;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	} 
 	
- 
 @media (max-width: 767px) {
-	.container{
-		width: 97%;
-	}
+
 }
